@@ -1,0 +1,23 @@
+{
+  "name": "lanchonete",
+  "version": "1.0.0",
+  "description": "Simulando o banco de dados de uma lanchonete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clxsilva/lanchonete.git"
+  },
+  "author": "Claudio Silva, Yvis Trindade & Gabriel Yago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clxsilva/lanchonete/issues"
+  },
+  "homepage": "https://github.com/clxsilva/lanchonete#readme",
+  "dependencies": {
+    "mongoose": "^8.10.2",
+    "string-similarity": "^4.0.4"
+  }
+}

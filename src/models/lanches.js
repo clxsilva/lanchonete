@@ -9,7 +9,9 @@ const { model, Schema } = require('mongoose')
 // criação da estrutura de dados ("coleção") que será usada no banco
 const lancheSchema = new Schema({
     nomeLanche: {
-        type: String
+        type: String,
+        unique: true,
+        index: true
     },
     descLanche: {
         type: String

@@ -21,11 +21,11 @@ const criarLanche = async (nomeLan, descLan, precoLan, imgLan) => {
         )
         // a linha abaixo salva os dados do lanche no banco
         await novoLanche.save()
-        console.log("Lanche catalogado com sucesso.")
+        console.log("Lanche cadastrado com sucesso.")
     } catch (error) {
         // tratamento de exceções específicas
         if (error.code = 11000) {
-            console.log(`Erro: O CPF ${cpfCli} já está cadastrado`)
+            console.log(`Erro: O lanche ${nomeLan} já está cadastrado`)
         } else {
             console.log(error)
         }
@@ -131,8 +131,8 @@ const app = async () => {
     await conectar()
 
     // CRUD - Create
-    //await criarLanche("Giga Mac", "2 hamburguer, tomate, alface, queijo e cebola", "34,99", "Imagem Ilutrastiva:")
-
+    //await criarLanche("Big Tosterona", "4 hamburguer, alface, queijo e brócolis", "49,99", "Imagem Ilutrastiva:")
+    //await criarLanche("Big Lanche", "3 hamburgueres, alface, queijo e brócolis", "49,99", "Imagem Ilutrastiva:")
     // CRUD - Read (Exemplo 1 - listar lanche)
     //await listarLanches()
 

@@ -27,7 +27,7 @@ const conectar = async () => {
         } catch (error) {
             // tratamento de exceções específicas
             if (error.code = 110000) {
-                console.log(`Erro: O CPF ${cpfCli} já está cadastrado`)
+                console.log(`Erro: O lacnhe ${nomeLan} já está cadastrado`)
             } else {
                 console.error(error)
             }

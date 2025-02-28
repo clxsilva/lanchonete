@@ -131,7 +131,7 @@ const app = async () => {
     await conectar()
 
     // CRUD - Create
-    //await criarLanche("Big Tosterona", "4 hamburguer, alface, queijo e brócolis", "49,99", "Imagem Ilutrastiva:")
+    await criarLanche("Big Tosterona", "4 hamburguer, alface, queijo e brócolis", "49,99", "Imagem Ilutrastiva:")
     //await criarLanche("Big Lanche", "3 hamburgueres, alface, queijo e brócolis", "49,99", "Imagem Ilutrastiva:")
     // CRUD - Read (Exemplo 1 - listar lanche)
     //await listarLanches()
